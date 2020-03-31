@@ -1,0 +1,76 @@
+body {
+    margin: 7px;
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.items {
+    height: 20vh;
+}
+
+.first {
+    background-color: purple;
+}
+
+.second {
+    background-color: blueviolet;
+}
+
+.third {
+    background-color: rgb(85, 16, 149);
+}
+
+.fourth {
+    background-color: green;
+}
+
+.fifth {
+    background-color: yellow;
+}
+
+.sixth {
+    background-color: orange;
+}
+
+.seventh {
+    background-color: red;
+}
+
+/* small devices 0px-600px */
+@media (max-width: 600px) {
+    .items {
+        width: 100%;
+    }
+}
+
+/* tablet 601px-800px */
+@media (min-width: 601px) and (max-width: 800px) {
+    .items {
+        width: 100%;
+    }
+
+    .third,
+    .fourth,
+    .fifth {
+        width: 33.33%;
+    }
+}
+
+/* desktop 801px + */
+@media (min-width: 801px) {
+    .items {
+        width: 50%;
+    }
+
+    .third,
+    .fourth,
+    .fifth {
+        width: 33.33%;
+    }
+}
