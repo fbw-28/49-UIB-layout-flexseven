@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex {
+    height: 150px;
+    flex-grow: 1;
+
+}
+.item1 {
+    background-color: purple;
+    flex-basis: 50%;
+}
+
+.item2 {
+    background-color: palevioletred;
+    flex-basis: 50%;
+}
+
+.item3 {
+    background-color: blue;
+    flex-basis: 33.33%;
+}
+
+.item4 {
+    background-color: green;
+    flex-basis: 33.33%;
+}
+
+.item5 {
+    background-color: yellow;
+    flex-basis: 33.33%;
+}
+
+.item6 {
+    background-color: orange;
+    flex-basis: 50%;
+}
+
+.item7 {
+    background-color: red;
+    flex-basis: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .flex-container {
+        flex-flow: row wrap
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .item1 {
+        background-color: purple;
+        flex-basis: 100%;
+    }
+    
+    .item2 {
+        background-color: palevioletred;
+        flex-basis: 100%;
+    }
+    
+    .item3 {
+        background-color: blue;
+        flex-basis: 33%;
+    }
+    
+    .item4 {
+        background-color: green;
+        flex-basis: 33%;
+    }
+    
+    .item5 {
+        background-color: yellow;
+        flex-basis: 33%;
+    }
+    
+    .item6 {
+        background-color: orange;
+        flex-basis: 100%;
+    }
+    
+    .item7 {
+        background-color: red;
+        flex-basis: 100%;
+    }
+}
