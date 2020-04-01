@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-parent {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-parent > div {
+    height: 100px;
+}
+
+@media screen and (min-width: 601px){
+
+    .flex-parent {
+        flex-flow: row wrap;
+    }
+
+    .dark-purple, .purple, .orange, .red {
+        flex-basis: 100%;
+    }
+
+    .violet, .green, .yellow {
+        flex-basis: 33.33%;
+    }
+}
+
+@media screen and (min-width: 801px){
+
+    .flex-parent {
+        flex-flow: row wrap;
+    }
+
+    .dark-purple, .purple, .orange, .red {
+        flex-basis: 50%;
+    }
+
+    .violet, .green, .yellow {
+        flex-basis: 33.33%;
+    }
+}
+
+.dark-purple {
+    background-color: #8a0081;
+}
+
+.purple {
+    background-color: #a300e6;
+}
+
+.purple {
+    background-color: #a300e6;
+}
+
+.violet {
+    background-color: #6b00ff;
+}
+
+.green {
+    background-color: #009200;
+}
+
+.yellow {
+    background-color: #edff00;
+}
+
+.orange {
+    background-color: #fe9100;
+}
+
+.red {
+    background-color: #ff0000;
+}
