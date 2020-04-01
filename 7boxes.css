@@ -1,0 +1,186 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+@media only screen and (max-width: 600px){
+.one{
+    background-color: brown;
+}
+.two{
+    background-color: chartreuse;
+}
+.three{
+    background-color: darkblue;
+}
+.four{
+    background-color: darkkhaki;
+}
+.five{
+    background-color: darkslategrey;
+}
+.six{
+    background-color: green;
+}
+.seven{
+    background-color: red ;
+}
+
+.container {
+
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;   
+}
+.Box {
+    height: 170px;
+}
+}
+
+@media only screen and (min-width: 601px), and (max-width: 800px){
+    .one{
+        background-color: brown;
+    }
+    .two{
+        background-color: chartreuse;
+    }
+    .three{
+        background-color: darkblue;
+    }
+    .four{
+        background-color: darkkhaki;
+    }
+    .five{
+        background-color: darkslategrey;
+    }
+    .six{
+        background-color: green;
+    }
+    .seven{
+        background-color: red ;
+    }
+    
+    .container {
+    
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .innercontainer {
+
+        flex-flow: row wrap;
+        display: flex;
+        flex-direction: row;
+  
+    }
+
+    .Box {
+        height: 170px;         
+    }
+
+    .three {
+        width: 33.33%;   
+    }
+
+    .four {
+        width: 33.33%;
+    }
+
+    .five {
+        width: 33.33%;
+    
+    }
+}
+
+
+@media only screen and (min-width: 801px){
+    .one{
+        background-color: brown;
+    }
+    .two{
+        background-color: chartreuse;
+    }
+    .three{
+        background-color: darkblue;
+    }
+    .four{
+        background-color: darkkhaki;
+    }
+    .five{
+        background-color: darkslategrey;
+    }
+    .six{
+        background-color: green;
+    }
+    .seven{
+        background-color: red ;
+    }
+    
+    .container {
+    
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .innercontainer {
+
+        flex-flow: row wrap;
+        display: flex;
+        flex-direction: row;
+  
+    }
+
+    .innerone {
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .innertwo {
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Box {
+        height: 170px;         
+    }
+
+    .one {
+
+        width: 50%;
+    }
+
+    .two {
+        width: 50%;
+    }
+    .three {
+        width: 33.33%;   
+    }
+
+    .four {
+        width: 33.33%;
+    }
+
+    .five {
+        width: 33.33%;
+    
+    }
+
+    .six {
+        width: 50%;
+
+    }
+
+    .seven {
+        width: 50%;
+        
+    }
+}
