@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    height: 100px;
+    width: 500px;
+    flex-grow: 1;
+
+}
+
+.box1 {
+    background-color: blue;
+    
+}
+
+.box2 {
+    background-color: red;
+    
+}
+
+.box3 {
+    background-color: hotpink;
+}
+
+.box4 {
+    background-color: green;
+}
+
+.box5 {
+    background-color: yellow;
+}
+
+.box6 {
+    background-color: cornflowerblue;
+}
+
+.box7 {
+    background-color: rgb(255, 145, 0);
+}
+
+@media only screen and (min-width: 601px) {
+    .box1 {
+        flex: 100%;
+    }
+
+    .box2 {
+
+        flex: 100%;
+    }
+
+    .box2 {
+        background-color: red;
+        
+    }
+    
+    .box3 {
+        background-color: hotpink;
+        flex: 33.33%
+    }
+    
+    .box4 {
+        background-color: green;
+        flex: 33.33%
+    }
+    
+    .box5 {
+        background-color: yellow;
+        flex: 33.33%
+    }
+
+    .box6 {
+        flex: 100%;
+    }
+    
+    .box7 {
+        flex: 100%;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 801px) {
+    .box1 {
+        flex: 50%;
+    }
+
+    .box2 {
+
+        flex: 50%;
+    }
+
+    .box2 {
+        background-color: red;
+        
+    }
+    
+    .box3 {
+        background-color: hotpink;
+        flex: 33.33%
+    }
+    
+    .box4 {
+        background-color: green;
+        flex: 33.33%
+    }
+    
+    .box5 {
+        background-color: yellow;
+        flex: 33.33%
+    }
+
+    .box6 {
+        flex: 50%;
+    }
+    
+    .box7 {
+        flex: 50%;
+    }
+     }
