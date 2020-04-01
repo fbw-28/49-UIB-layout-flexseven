@@ -1,0 +1,71 @@
+html, body{
+    /* margin: 0px; */
+    /* height: 100%;  */
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item{
+    flex-basis: 100%;
+}
+
+
+
+@media only screen and (min-width: 601px){
+    .purple, .violet{
+        flex-basis: 100%;
+    }
+
+    .blue, .green, .yellow{
+        flex-basis: 33.33%;
+    }
+} 
+
+@media only screen and (min-width: 801px){
+    .purple, .violet{
+        flex-basis: 50%;
+    }
+
+    .blue, .green, .yellow{
+        flex-basis: 33.33%;
+    }
+
+    .orange, .red{
+        flex-basis: 50%;
+    }
+}
+
+
+
+.purple{
+    background-color: purple ;
+}
+
+.violet{
+    background-color:violet ;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color:green ;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.orange{
+    background-color:orange ;
+}
+
+.red{
+    background-color:red ;
+}
