@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section div {
+
+    height: 100px;
+}
+
+.first {
+    background-color: blueviolet;
+}
+
+.second {
+    background-color: crimson;
+}
+
+.third {
+    background-color: darkcyan;
+}
+
+.forth {
+    background-color: darkorchid;
+}
+
+.fifth {
+    background-color: darkred;
+}
+
+.sixth {
+    background-color: rgb(121, 121, 233);
+}
+
+.seventh {
+    background-color: rgb(180, 170, 30);
+}
+
+
+@media screen and (max-width: 600px) {
+    section div {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    section div {
+        flex-basis: 100%;
+    }
+
+    .third {
+        flex-basis: 33.3%;
+    }
+
+    .forth {
+        flex-basis: 33.3%;
+    }
+
+    .fifth {
+        flex-basis: 33.3%;
+    }
+
+    @media screen and (min-width: 801px) {
+        section div {
+            flex-basis: 50%;
+        }
+
+        .third {
+            flex-basis: 33.3%;
+        }
+
+        .forth {
+            flex-basis: 33.3%;
+        }
+
+        .fifth {
+            flex-basis: 33.3%;
+        }
+    }
