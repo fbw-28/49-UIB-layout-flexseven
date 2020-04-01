@@ -1,0 +1,125 @@
+
+
+
+    .container {
+        display: flex;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .item {
+       flex-grow: 1;
+        width: 300px;
+        height: 85px;
+    }
+
+    .box1 {
+      
+       background-color: rgb(222, 224, 55);
+    }
+
+    .box2 {
+       
+        background-color: rgb(140, 148, 216);
+    }
+    .box3 {
+        
+        background-color: rgb(238, 14, 6);
+
+    }
+    .box4 {
+        
+        background-color: green;
+
+    }
+    .box5 {
+       
+        background-color: yellow;
+    }
+    .box6 {
+       
+        background-color: orange;
+    }
+
+    .box7 {
+    
+        background-color: red;
+    }
+
+
+
+@media only screen and (min-width: 601px) {
+
+    .box1 {
+        flex: 100%;
+     }
+ 
+     .box2 {
+        flex: 100%;
+     }
+     .box3 {
+         
+        flex: 33.33%; 
+          
+     }
+     .box4 {
+        flex: 33.33%; 
+        
+ 
+     }
+     .box5 {
+        flex: 33.33%; 
+        
+     }
+
+    .box6 {
+    flex: 100%;
+    
+    }
+
+   .box7 {
+    flex: 100%;
+    
+    }
+
+}
+
+@media only screen and (min-width: 801px) { 
+
+    .box1 {
+        flex: 50%;
+       
+     }
+ 
+     .box2 {
+        flex: 50%;
+        
+    
+     }
+     .box3 {
+         
+        flex: 33.33%; 
+          
+     }
+     .box4 {
+        flex: 33.33%; 
+        
+ 
+     }
+     .box5 {
+        flex: 33.33%; 
+        
+     }
+
+    .box6 {
+        flex: 50%;
+    
+    }
+
+   .box7 {
+    flex: 50%;
+    
+    }
+
+}
