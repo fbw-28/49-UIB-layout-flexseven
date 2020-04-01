@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  border: 2px solid red;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.box {
+  flex-grow: 1;
+}
+.box1 {
+  background: violet;
+}
+
+.box2 {
+  background: #a86de6;
+}
+
+.box3 {
+  background: #7472f9;
+}
+
+.box4 {
+  background: #3a920b;
+}
+
+.box5 {
+  background: #e9eb3f;
+}
+
+.box6 {
+  background: orange;
+}
+
+.box7 {
+  background: red;
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  main {
+    flex-flow: row wrap;
+  }
+
+  .box1 {
+    background: violet;
+    width: 100%;
+  }
+
+  .box2 {
+    background: #a86de6;
+    width: 100%;
+  }
+
+  .box3 {
+    background: #7472f9;
+    width: 33.3%;
+  }
+
+  .box4 {
+    background: #3a920b;
+    width: 33.3%;
+  }
+
+  .box5 {
+    background: #e9eb3f;
+    width: 33.3%;
+  }
+
+  .box6 {
+    background: orange;
+    width: 100%;
+  }
+
+  .box7 {
+    background: red;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  main {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .box1 {
+    background: violet;
+    width: 50%;
+  }
+
+  .box2 {
+    background: #a86de6;
+    width: 50%;
+  }
+
+  .box3 {
+    background: #7472f9;
+    width: 33.3%;
+  }
+
+  .box4 {
+    background: #3a920b;
+    width: 33.3%;
+  }
+
+  .box5 {
+    background: #e9eb3f;
+    width: 33.3%;
+  }
+
+  .box6 {
+    background: orange;
+    width: 50%;
+  }
+
+  .box7 {
+    background: red;
+    width: 50%;
+  }
+}
